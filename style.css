@@ -74,7 +74,7 @@ body {
   color: hsl(0, 0%, 41%);
   font-weight: 600;
 }
-.main-container .sidebar-container .closemenu-btn {
+.main-container .sidebar-container .close-menu {
   position: absolute;
   right: 20px;
   top: 20px;
@@ -88,23 +88,31 @@ body {
   align-items: center;
   gap: 15px;
 }
-.main-container .sidebar-container .menu-container ul {
+.main-container .sidebar-container .menu-container .features-options ul {
   list-style: none;
   margin-left: 20px;
 }
-.main-container .sidebar-container .menu-container ul div {
+.main-container .sidebar-container .menu-container ul li {
   display: flex;
   align-items: center;
   gap: 15px;
-  margin-bottom: 20px;
+  margin: 20px 0px;
 }
 
-.main-container .sidebar-container .menu-container .company-options li {
-  margin-bottom: 20px;
+.main-container .sidebar-container .menu-container .company-options {
+  margin-left: 20px;
+}
+.main-container
+  .sidebar-container
+  .menu-container
+  .company-menu
+  .company-options
+  li {
+  /* margin-bottom: 20px; */
 }
 
 .main-container .sidebar-container .menu-container p {
-  margin: 30px 0px;
+  margin: 10px 0px;
 }
 .main-container .sidebar-container .auth-container .reg-btn {
   border: 2px solid gray;
@@ -127,5 +135,5 @@ body {
   display: none;
 }
 .black {
-  background-color: hsla(0, 0%, 0%,0.5);
+  background-color: hsla(0, 0%, 0%, 0.5);
 }
