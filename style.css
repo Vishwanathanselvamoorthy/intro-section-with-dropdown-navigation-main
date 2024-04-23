@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Epilogue;
+}
+body {
+  height: 100vh;
+}
+.main-container {
+  /* width: max-content; */
+  height: 100vh;
+}
+.main-container .navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+}
+.main-container .hero-container {
+  width: 100%;
+}
+.main-container .hero-container img {
+  width: 100%;
+}
+.main-container .sub-container {
+  padding: 0px 10px;
+}
+.main-container .content-container {
+  text-align: center;
+  margin: 50px 0px;
+}
+.main-container .content-container h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.main-container .content-container p {
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: hsl(0, 0%, 41%);
+}
+.main-container .content-container .btn {
+  background-color: black;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  padding: 20px 30px;
+  margin-top: 30px;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.main-container .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-container .footer img {
+  width: 70px;
+}
