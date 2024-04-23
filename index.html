@@ -19,7 +19,7 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
-    <div class="main-container">
+    <div class="main-container black">
       <div class="navbar-container">
         <img src="images/logo.svg" />
         <img src="images/icon-menu.svg" />
@@ -44,13 +44,49 @@
         </div>
       </div>
       <div class="sidebar-container">
-        <img src="images/icon-close-menu.svg" />
+        <img class="closemenu-btn" src="images/icon-close-menu.svg" />
         <div class="menu-container">
+          <div class="options-container">
+            <p>Features</p>
+            <img src="images/icon-arrow-down.svg" />
+          </div>
+
           <ul>
-            <li>Features</li>
-            <li>Company</li>
-            <li>Careers</li>
-            <li>About</li>
+            <!-- <div> -->
+              <div class="options">
+                <img src="images/icon-todo.svg" />
+                <li>Todo List</li>
+              </div>
+              <div>
+                <img src="images/icon-calendar.svg" />
+                <li>Calender</li>
+              </div>
+              <div>
+                <img src="images/icon-reminders.svg" />
+                <li>Reminders</li>
+              </div>
+              <div>
+                <img src="images/icon-planning.svg" />
+                <li>Planning</li>
+              </div>
+            <!-- </div> -->
+            </ul> 
+            
+            
+            
+            <div
+            class="options-container">
+              <p>Company</p>
+              <img src="images/icon-arrow-down.svg" />
+            </div>
+            <ul class="company-options">
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+
+            <p>Careers</p>
+            <p>About</p>
           </ul>
         </div>
         <div class="auth-container">
