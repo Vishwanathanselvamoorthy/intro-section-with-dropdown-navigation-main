@@ -10,7 +10,6 @@ body {
   height: 100vh;
 }
 .main-container {
-  /* width: max-content; */
   height: 100vh;
   position: relative;
 }
@@ -20,9 +19,9 @@ body {
   align-items: center;
   padding: 30px 20px;
 }
-.main-container .hero-container {
+/* .main-container .hero-container {
   width: 100%;
-}
+} */
 .main-container .hero-container img {
   width: 100%;
 }
@@ -39,7 +38,8 @@ body {
 }
 .main-container .content-container p {
   letter-spacing: 1px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.8;
   font-weight: 600;
   color: hsl(0, 0%, 41%);
 }
@@ -82,7 +82,7 @@ body {
 }
 .main-container .sidebar-container .menu-container {
   /* margin-left: 20px; */
-  margin-top: 60px;
+  margin-top: 80px;
 }
 .main-container .sidebar-container .menu-container .options-container {
   display: flex;
@@ -91,7 +91,7 @@ body {
 }
 .main-container .sidebar-container .menu-container .features-options ul {
   list-style: none;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 .main-container .sidebar-container .menu-container ul li {
   display: flex;
@@ -102,20 +102,19 @@ body {
 }
 
 .main-container .sidebar-container .menu-container .company-options {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
-
-.main-container .sidebar-container .menu-container p {
-  margin: 10px 0px;
+.main-container .sidebar-container .menu-container div {
+  margin: 20px 0px;
   cursor: pointer;
 }
 .main-container .sidebar-container .auth-container .reg-btn {
-  border: 2px solid gray;
+  border: 2px solid hsl(0, 0%, 41%);
   width: 100%;
   text-align: center;
-  padding: 10px 0px;
-  border-radius: 10px;
+  padding: 15px 0px;
+  border-radius: 15px;
   cursor: pointer;
 }
 .main-container .sidebar-container .auth-container {
@@ -140,4 +139,3 @@ body {
   z-index: 1;
   top: 0;
 }
-
