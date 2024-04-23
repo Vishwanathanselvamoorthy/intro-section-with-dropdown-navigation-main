@@ -12,6 +12,7 @@ body {
 .main-container {
   /* width: max-content; */
   height: 100vh;
+  position: relative;
 }
 .main-container .navbar-container {
   display: flex;
@@ -61,4 +62,16 @@ body {
 }
 .main-container .footer img {
   width: 70px;
+}
+.main-container .sidebar-container {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: aqua;
+  /* width: 65%; */
+}
+.main-container .sidebar-container img{
+    position: absolute;
+    right: 0;
 }
